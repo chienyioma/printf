@@ -1,9 +1,7 @@
 #ifndef MAIN_H
-
 #define MAIN_H
 
 #include <stdlib.h>
-
 #include <stdarg.h>
 
 /**
@@ -12,6 +10,7 @@
  * @space: flag for the ' ' character
  * @hash: flag for the '#' character
  */
+
 typedef struct flags
 {
 	int plus;
@@ -24,6 +23,7 @@ typedef struct flags
  * @c: format specifier passed to _print()
  * @f: point to the correct print function
  */
+
 typedef struct printHandler
 {
 	char c;
