@@ -58,7 +58,7 @@ int print_rev(va_list l, flags_t *f)
 
 	for (j = i - 1; j >= 0; j--)
 		_putchar(s[j]);
-	
+
 	return (i);
 }
 
@@ -80,7 +80,7 @@ int print_rot13(va_list l, flags_t *f)
 
 	for (j = 0; s[j]; j++)
 	{
-		if ( s[j] < 'A' || (s[j] > 'Z' && s[j] < 'a') || s[j] > 'z')
+		if (s[j] < 'A' || (s[j] > 'Z' && s[j] < 'a') || s[j] > 'z')
 			_putchar(s[j]);
 		else
 		{
